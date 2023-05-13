@@ -9,8 +9,8 @@ if not os.path.isfile(file_path):
 with open(file_path, 'r') as f:
     excluded_numbers = [int(x) for x in f.read().split(',') if x.strip()]
 
-start = 1
-end = 100
+start = 12
+end = 62
 count = 3
 
 random_numbers = []
