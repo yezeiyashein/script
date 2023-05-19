@@ -1,0 +1,3 @@
+<?php
+readfile("php://filter/resource=../../hackable/flags/fi.php");
+?>
